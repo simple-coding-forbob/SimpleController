@@ -1,0 +1,18 @@
+package com.egovframework.simplecontroller.controller.ex02;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class ParamController {
+	
+//	따라하기 예제 1
+    @GetMapping("/ex02/example01")
+    public String example01(Model model,
+                            @RequestParam(defaultValue = "") String name) {
+        model.addAttribute("name", name);
+        return "ex02/example01";
+    }
+}
