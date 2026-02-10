@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="page mt5">
-		<p>${memberVO}</p>
+		<p>${member}</p>
 	</div>
 </body>
 </html>

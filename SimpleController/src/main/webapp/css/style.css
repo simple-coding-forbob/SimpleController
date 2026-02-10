@@ -6,3 +6,7 @@
     --gray: gray;
 }
 body {font-family: "Montserrat","Noto Sans KR", sans-serif;line-height: 1.6;}
+
+.page {
+    margin: 0 auto;
+}

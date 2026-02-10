@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class BasicController {
-	@RequestMapping(value = "/ex01/hello", method = RequestMethod.GET)
-	public String hello() {
-		return "/ex01/hello";
-	}
+//	@RequestMapping(value = "/ex01/example01", method = RequestMethod.GET)
+//	public String hello() {
+//		return "/ex01/hello";
+//	}
 //	따라하기 예제 1
 	@GetMapping("/ex01/example01")
 	public String example01() {

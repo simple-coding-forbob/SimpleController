@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<div class="page mt5">
+	<div class="page">
 		<p>${list}</p>
 	</div>
 </body>
